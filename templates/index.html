@@ -1,0 +1,39 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        background-color: rgb(179, 173, 230);
+        font-family: "Rubik", "sans-serif";
+    }
+
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: rgb(0, 74, 143);
+        background-color: aquamarine;
+        font-size: 40pt;
+    }
+
+    p {
+        color: rgb(255, 255, 212);
+        font-size: 24pt;
+    }
+    button{
+    width: 3cm; height: 1cm;
+    background-color: rgb(118, 162, 206);
+    color: rgb(183, 255, 233);
+    font-size: 10px;
+    text-shadow: 4px 2px 2px rgb(63, 58, 58);
+    }
+</style>
+
+<div>
+    <h1>Welcome!</h1><br>
+    <p>This site has been visited {{ count }} times.</p>
+
+    <button type="button" id="reload" onclick="location.reload()">Reload Page</button>
+</div>
